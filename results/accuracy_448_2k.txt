@@ -1,0 +1,1 @@
+PaliGemma-3B VQAv2 448px Accuracy (2,000 examples): 93.27%

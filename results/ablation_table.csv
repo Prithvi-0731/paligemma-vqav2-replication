@@ -1,0 +1,8 @@
+Experiment,Resolution,Decoding,Prompt,Sampling,Normalization,Accuracy (%)
+"Baseline (224, greedy)",224,greedy,plain,No,No,93.27
+Beam search (beam=3),224,beam=3,plain,No,No,92.73
+QA-style prompt,224,greedy,qa,No,No,93.27
+Strict short-answer,224,greedy,qa_short,No,Yes,82.4
+Sampling + majority vote,224,greedy,plain,3 samples,Yes,92.13
+High resolution (448),448,greedy,plain,No,No,93.13
+224+448 ensemble,224+448,greedy,plain,No,Yes,93.13
