@@ -69,3 +69,24 @@ Evaluation was performed on a Google Colab A100 environment.
 
 Dependencies include:
 transformers, datasets, pillow, huggingface_hub, torch.
+
+⸻
+
+Usage
+
+The notebook contains everything needed to run inference, compute VQA accuracy, and reproduce all figures and tables.
+
+⸻
+
+Notes
+
+• All results use the official VQA evaluation metric.
+• No model training was performed — this is a replication using publicly released checkpoints.
+• Everything is fully reproducible with the included notebook.
+
+⸻
+
+Author
+
+Prithvi Pandaala
+
